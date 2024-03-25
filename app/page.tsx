@@ -4,7 +4,7 @@
 import { getFrameMetadata } from '@coinbase/onchainkit';
 import type { Metadata } from 'next';
 
-const FRAMES_URL = process.env.FRAMES_URL || "http://localhost:3001"
+const FRAMES_URL = process.env.FRAMES_URL 
 const imageUrl = new URL("/og/hello", FRAMES_URL).href
 const postUrl = new URL("/frame", FRAMES_URL).href
 
